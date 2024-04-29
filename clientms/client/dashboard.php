@@ -44,11 +44,11 @@ if (strlen($_SESSION['clientmsuid']==0)) {
 		text-align: center;
 		display: flex;
 		justify-content: center;
-		align-items:center;
-		height: 80vh; 
+		align-items:right;
+		height: 70vh; 
 	}
 	.centre h2{
-		font-style: italic;
+		font-style: timesnewroman;
 		text-decoration: underline;
 	}
 </style>
@@ -76,7 +76,7 @@ foreach($results as $row)
 {      
          ?>
 		 <div class="center">
-<h2 style="padding-left: 200px"><em><u><b>
+<h2 style="padding-left: 150px"><em><u><b>
 		Bienvenue dans le volet client !! <?php  echo $row->ContactName;?></em></u></b>
 	</h2>
 							<?php $cnt=$cnt+1;}} ?>
@@ -98,13 +98,13 @@ $(".sidebar-icon").click(function() {
 	if (toggle)
 	{
 		$(".page-container").addClass("sidebar-collapsed").removeClass("sidebar-collapsed-back");
-		$("#menu span").css({"position":"absolute"});
+		$("#menu span").css({"uptown":"absolute"});
 	}
 	else
 	{
 		$(".page-container").removeClass("sidebar-collapsed").addClass("sidebar-collapsed-back");
 		setTimeout(function() {
-			$("#menu span").css({"position":"relative"});
+			$("#menu span").css({"uptown":"relative"});
 		}, 400);
 	}
 
