@@ -8,7 +8,7 @@
 
 body {
 	font-family: 'PT Sans', sans-serif;
-	background: #fff;
+	background: #ffff;
 }
 
 body a {
@@ -35,7 +35,7 @@ p {
 	margin: 0;
 	color: #777;
 	font-size: 1em;
-	line-height: 2;
+	line-height: 3;
 }
 
 ul {
@@ -61,7 +61,7 @@ body a:focus {
 }
 
 .home {
-	width: 100%;
+	width: 80%;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -71,12 +71,12 @@ body a:focus {
 	font-size: 0.9em;
 	text-transform: uppercase;
 	font-weight: bold;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 }
 
 ul.nav.nav-pills li {
-	margin-top: 10px;
-	text-align: center;
+	margin-top: 15px;
+	text-align: right;
 }
 
 /*-- bottom-to-top --*/
@@ -84,20 +84,20 @@ ul.nav.nav-pills li {
 	display: none;
 	text-decoration: none;
 	position: fixed;
-	bottom: 24px;
-	right: 3%;
+	bottom: 28px;
+	right: 5%;
 	overflow: hidden;
 	z-index: 999;
-	width: 32px;
-	height: 32px;
+	width: 34px;
+	height: 35px;
 	border: none;
-	text-indent: 100%;
+	text-indent: 80%;
 	background: url(../images/move-top.png) no-repeat 0px 0px;
 }
 
 #toTopHover {
 	width: 32px;
-	height: 32px;
+	height: 34px;
 	display: block;
 	overflow: hidden;
 	float: right;
@@ -109,7 +109,7 @@ ul.nav.nav-pills li {
 /*-- //bottom-to-top --*/
 .scrollspy-example {
 	position: relative;
-	height: 100vh;
+	height: 80vh;
 	overflow: auto;
 }
 
@@ -128,7 +128,7 @@ ul.nav.nav-pills li {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	-ms-background-size: cover;
-	min-height: 98vh;
+	min-height: 88vh;
 	position: relative;
 	z-index: 0;
 }
@@ -136,8 +136,8 @@ ul.nav.nav-pills li {
 .w3ls-banner:before {
 	position: absolute;
 	content: '';
-	width: 100%;
-	height: 100%;
+	width: 80%;
+	height: 80%;
 	background: rgba(56, 195, 195, 0.26);
 	z-index: -1;
 	left: 0;
@@ -147,9 +147,9 @@ ul.nav.nav-pills li {
 h2.bnr-txt-w3 {
 	color: #162427;
 	text-transform: capitalize;
-	font-weight: 800;
+	font-weight: 80;
 	font-size: 5em;
-	letter-spacing: 3.5px;
+	letter-spacing: 4.5px;
 	margin: 0.3em 0;
 	background: -webkit-linear-gradient(#00c6d6, #b031d9);
 	background: -moz-linear-gradient(#00c6d6, #b031d9);
@@ -162,17 +162,17 @@ h2.bnr-txt-w3 {
 	text-transform: uppercase;
 	color: #fff;
 	font-size: 1.1em;
-	letter-spacing: 3px;
+	letter-spacing: 4px;
 }
 
 .bnr-w3pvt p {
 	color: #fff;
 	font-size: 1.1em;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 }
 
 .btn-w3pvt {
-	padding: 6px 25px;
+	padding: 6px 27px;
 	text-transform: capitalize;
 	font-size: 1em;
 	margin-top: 1.5em;
@@ -198,8 +198,8 @@ h2.bnr-txt-w3 {
 
 #spy:before {
 	position: absolute;
-	width: 100%;
-	height: 100%;
+	width: 80%;
+	height: 80%;
 	background: -webkit-linear-gradient(rgb(0, 198, 214), rgba(176, 49, 217, 0.77));
 	background: -moz-linear-gradient(rgb(0, 198, 214), rgba(176, 49, 217, 0.77));
 	background: -o-linear-gradient(rgb(0, 198, 214), rgba(176, 49, 217, 0.77));
@@ -229,7 +229,7 @@ h2.bnr-txt-w3 {
 
 @-webkit-keyframes slideleft {
 	from {
-		background-position: 0%;
+		background-position: 4%;
 	}
 
 	to {
@@ -239,7 +239,7 @@ h2.bnr-txt-w3 {
 
 /* banner bottom */
 .banner-bottom {
-	border: 1px solid #eee;
+	border: 2px solid #eee;
 }
 
 .wthree-list-grid {
